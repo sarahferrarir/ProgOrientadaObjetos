@@ -9,6 +9,17 @@ IBMEC 2025.2
 
 ## Objetivo
 
+1. Definir o melhor paradigma de programação para problemas de software, utilizando o histórico de uso
+e boas práticas para cada paradigma, visando a produção de softwares de qualidade.  
+2. Modelar problemas de software, utilizando conceitos UML e boas práticas do mercado, visando
+possibilitar a implementação das soluções.  
+3. Projetar softwares orientados a objetos, aplicando as boas práticas do mercado e os conceitos
+estruturais, relacionais e organizacionais, de forma a produzir softwares de qualidade.  
+4. Implementar softwares na linguagem Java, utilizando os conceitos de orientação a objetos e melhores
+práticas do mercado, para solucionar problemas de engenharia.  
+5. Avaliar softwares orientados a objetos, utilizando métricas de código e princípios de desenvolvimento
+de projetos, para aperfeiçoar problemas de engenharia.  
+
 ## Avaliações
 
 **Avaliação continuada (AC): 20%**    
