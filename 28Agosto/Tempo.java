@@ -1,6 +1,4 @@
-/*
-Leia uma variável t com um tempo qualquer em segundos e imprima esse valor em hora, minuto e segundo.
- */
+// Leia uma variável t com um tempo qualquer em segundos e imprima esse valor em hora, minuto e segundo.
 import java.util.Scanner;
 
 public class Tempo {
