@@ -1,3 +1,39 @@
+# Estrutura Condicional – Switch
+
+O **switch** é um comando de seleção semelhante ao `if-else`, mas é mais recomendado quando temos **muitos caminhos possíveis** a partir de uma única condição.
+
+## Características
+
+- A expressão do `switch` deve ser obrigatoriamente do tipo **caractere (`char`)** ou **inteiro (`byte`, `short`, `int` ou `long`)**.  
+- O comando `break` é usado para **terminar a execução do switch**.  
+- Se nenhum `case` corresponder à expressão, é executado o **default**.  
+
+## Sintaxe
+
+```java
+switch (expressão) {
+    case valor1:
+        comando1;
+        comando2;
+        break;
+    case valor2:
+        comando3;
+        break;
+    case valor3:
+        comando4;
+        comando5;
+        break;
+    default:
+        comando6;
+        break;
+}
+```
+**Observações:**
+- `valor1`, `valor2`, `valor3`, etc., podem ser variáveis ou constantes;
+- Quando um `break` é executado, o switch termina imediatamente;
+- O `default` é opcional e executa caso nenhum case seja satisfeito.
+
+  
 # Estrutura de Repetição
 As estruturas de repetição permitem executar um bloco de código várias vezes, enquanto uma condição é verdadeira ou por um número determinado de vezes.  
 Escolha o tipo de loop de acordo com a *condição* de repetição:
