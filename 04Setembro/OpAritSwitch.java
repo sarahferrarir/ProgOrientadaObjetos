@@ -11,7 +11,7 @@ public class OpAritSwitch {
         Scanner teclado = new Scanner(System.in);
 
         System.out.println("Informe a operação aritmética desejada: ");
-        String op = teclado.next();
+        char op = teclado.next().charAt(0);
         System.out.println("Informe o primeiro número: ");
         double a = teclado.nextDouble();
         System.out.println("Informe o segundo número: ");
@@ -19,16 +19,16 @@ public class OpAritSwitch {
 
         switch(op)
         {
-            case "+":
+            case '+':
                 System.out.println(a + " + " + b + " = " + (a + b));
                 break;
-            case "-":
+            case '-':
                 System.out.println(a + " - " + b + " = " + (a - b));
                 break;
-            case "*":
+            case '*':
                 System.out.println(a + " * " + b + " = " + (a * b));
                 break;
-            case "/":
+            case '/':
                 System.out.println(a + " / " + b + " = " + (a / b));
                 break;
         }
