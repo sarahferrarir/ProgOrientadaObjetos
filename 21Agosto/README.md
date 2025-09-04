@@ -1,4 +1,4 @@
-# Valores para Tipos Primitivos de Dados
+## Valores para Tipos Primitivos de Dados
 
 | Tipo    | Valores                                                                 | Exemplos                       |
 |---------|-------------------------------------------------------------------------|--------------------------------|
@@ -13,3 +13,17 @@
 | String  | Sequência de zero ou mais caracteres entre aspas duplas.                | `"Oba!"` \| `"Rio de Janeiro"` |
 
 > ⚠️ **Observação**: `String` **não é um tipo primitivo** em Java.
+
+## Operadores Aritméticos
+
+Os operadores aritméticos previstos em Java são:
+
+| Operador | Ação               | Tipos                       |
+|----------|------------------|-----------------------------|
+| `+`      | Soma             | Inteiro e ponto flutuante   |
+| `-`      | Subtração        | Inteiro e ponto flutuante   |
+| `*`      | Multiplicação    | Inteiro e ponto flutuante   |
+| `/`      | Divisão          | Inteiro e ponto flutuante   |
+| `%`      | Resto da divisão | Inteiro                     |
+| `++`     | Incremento       | Inteiro e ponto flutuante   |
+| `--`     | Decremento       | Inteiro e ponto flutuante   |
